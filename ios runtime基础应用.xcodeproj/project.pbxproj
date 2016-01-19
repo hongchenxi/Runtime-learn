@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A8D3881C4DD4880078A2D4 /* HCXArchiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3871C4DD4880078A2D4 /* HCXArchiveModel.m */; };
+		A0A8D38B1C4E20C80078A2D4 /* HCXStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D38A1C4E20C80078A2D4 /* HCXStudent.m */; };
+		A0A8D38E1C4E22EB0078A2D4 /* HCXTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D38D1C4E22EB0078A2D4 /* HCXTeacher.m */; };
+		A0A8D3911C4E26580078A2D4 /* HCXParents.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3901C4E26580078A2D4 /* HCXParents.m */; };
+		A0A8D3941C4E2EAD0078A2D4 /* HCXMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3931C4E2EAD0078A2D4 /* HCXMsgSend.m */; };
+		A0A8D3971C4E3CF80078A2D4 /* HCXProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */; };
 		A0E8DA3B1C4C9B5900ADA24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3A1C4C9B5900ADA24C /* main.m */; };
 		A0E8DA3E1C4C9B5900ADA24C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3D1C4C9B5900ADA24C /* AppDelegate.m */; };
 		A0E8DA411C4C9B5900ADA24C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA401C4C9B5900ADA24C /* ViewController.m */; };
@@ -15,6 +21,9 @@
 		A0E8DA491C4C9B5900ADA24C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8DA471C4C9B5900ADA24C /* LaunchScreen.storyboard */; };
 		A0E8DA541C4C9B5900ADA24C /* ios_runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA531C4C9B5900ADA24C /* ios_runtime____Tests.m */; };
 		A0E8DA5F1C4C9B5900ADA24C /* ios_runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA5E1C4C9B5900ADA24C /* ios_runtime____UITests.m */; };
+		A0E8DA6E1C4C9B9B00ADA24C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA6D1C4C9B9B00ADA24C /* Person.m */; };
+		A0E8DA711C4CC4B700ADA24C /* NSString+HCX.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA701C4CC4B700ADA24C /* NSString+HCX.m */; };
+		A0E8DA741C4CD21000ADA24C /* HCXTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA731C4CD21000ADA24C /* HCXTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0A8D3861C4DD4880078A2D4 /* HCXArchiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXArchiveModel.h; sourceTree = "<group>"; };
+		A0A8D3871C4DD4880078A2D4 /* HCXArchiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXArchiveModel.m; sourceTree = "<group>"; };
+		A0A8D3891C4E20C80078A2D4 /* HCXStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXStudent.h; sourceTree = "<group>"; };
+		A0A8D38A1C4E20C80078A2D4 /* HCXStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXStudent.m; sourceTree = "<group>"; };
+		A0A8D38C1C4E22EB0078A2D4 /* HCXTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXTeacher.h; sourceTree = "<group>"; };
+		A0A8D38D1C4E22EB0078A2D4 /* HCXTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXTeacher.m; sourceTree = "<group>"; };
+		A0A8D38F1C4E26580078A2D4 /* HCXParents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXParents.h; sourceTree = "<group>"; };
+		A0A8D3901C4E26580078A2D4 /* HCXParents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXParents.m; sourceTree = "<group>"; };
+		A0A8D3921C4E2EAD0078A2D4 /* HCXMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXMsgSend.h; sourceTree = "<group>"; };
+		A0A8D3931C4E2EAD0078A2D4 /* HCXMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXMsgSend.m; sourceTree = "<group>"; };
+		A0A8D3951C4E3CF80078A2D4 /* HCXProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXProperty.h; sourceTree = "<group>"; };
+		A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXProperty.m; sourceTree = "<group>"; };
 		A0E8DA361C4C9B5900ADA24C /* ios runtime基础应用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios runtime基础应用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8DA3A1C4C9B5900ADA24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0E8DA3C1C4C9B5900ADA24C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,12 @@
 		A0E8DA5A1C4C9B5900ADA24C /* ios runtime基础应用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios runtime基础应用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8DA5E1C4C9B5900ADA24C /* ios_runtime____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios_runtime____UITests.m"; sourceTree = "<group>"; };
 		A0E8DA601C4C9B5900ADA24C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E8DA6C1C4C9B9B00ADA24C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A0E8DA6D1C4C9B9B00ADA24C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A0E8DA6F1C4CC4B700ADA24C /* NSString+HCX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HCX.h"; sourceTree = "<group>"; };
+		A0E8DA701C4CC4B700ADA24C /* NSString+HCX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HCX.m"; sourceTree = "<group>"; };
+		A0E8DA721C4CD21000ADA24C /* HCXTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXTestModel.h; sourceTree = "<group>"; };
+		A0E8DA731C4CD21000ADA24C /* HCXTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +132,24 @@
 				A0E8DA3D1C4C9B5900ADA24C /* AppDelegate.m */,
 				A0E8DA3F1C4C9B5900ADA24C /* ViewController.h */,
 				A0E8DA401C4C9B5900ADA24C /* ViewController.m */,
+				A0E8DA6C1C4C9B9B00ADA24C /* Person.h */,
+				A0E8DA6D1C4C9B9B00ADA24C /* Person.m */,
+				A0A8D3951C4E3CF80078A2D4 /* HCXProperty.h */,
+				A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */,
+				A0A8D3921C4E2EAD0078A2D4 /* HCXMsgSend.h */,
+				A0A8D3931C4E2EAD0078A2D4 /* HCXMsgSend.m */,
+				A0E8DA721C4CD21000ADA24C /* HCXTestModel.h */,
+				A0A8D38F1C4E26580078A2D4 /* HCXParents.h */,
+				A0A8D3901C4E26580078A2D4 /* HCXParents.m */,
+				A0A8D38C1C4E22EB0078A2D4 /* HCXTeacher.h */,
+				A0A8D38D1C4E22EB0078A2D4 /* HCXTeacher.m */,
+				A0A8D3891C4E20C80078A2D4 /* HCXStudent.h */,
+				A0A8D38A1C4E20C80078A2D4 /* HCXStudent.m */,
+				A0E8DA731C4CD21000ADA24C /* HCXTestModel.m */,
+				A0A8D3861C4DD4880078A2D4 /* HCXArchiveModel.h */,
+				A0A8D3871C4DD4880078A2D4 /* HCXArchiveModel.m */,
+				A0E8DA6F1C4CC4B700ADA24C /* NSString+HCX.h */,
+				A0E8DA701C4CC4B700ADA24C /* NSString+HCX.m */,
 				A0E8DA421C4C9B5900ADA24C /* Main.storyboard */,
 				A0E8DA451C4C9B5900ADA24C /* Assets.xcassets */,
 				A0E8DA471C4C9B5900ADA24C /* LaunchScreen.storyboard */,
@@ -202,6 +247,7 @@
 		A0E8DA2E1C4C9B5900ADA24C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HCX;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "洪晨希";
 				TargetAttributes = {
@@ -270,9 +316,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A8D3971C4E3CF80078A2D4 /* HCXProperty.m in Sources */,
 				A0E8DA411C4C9B5900ADA24C /* ViewController.m in Sources */,
+				A0A8D38B1C4E20C80078A2D4 /* HCXStudent.m in Sources */,
+				A0E8DA741C4CD21000ADA24C /* HCXTestModel.m in Sources */,
 				A0E8DA3E1C4C9B5900ADA24C /* AppDelegate.m in Sources */,
+				A0E8DA711C4CC4B700ADA24C /* NSString+HCX.m in Sources */,
+				A0A8D3911C4E26580078A2D4 /* HCXParents.m in Sources */,
+				A0A8D3881C4DD4880078A2D4 /* HCXArchiveModel.m in Sources */,
+				A0A8D38E1C4E22EB0078A2D4 /* HCXTeacher.m in Sources */,
+				A0E8DA6E1C4C9B9B00ADA24C /* Person.m in Sources */,
 				A0E8DA3B1C4C9B5900ADA24C /* main.m in Sources */,
+				A0A8D3941C4E2EAD0078A2D4 /* HCXMsgSend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +551,7 @@
 				A0E8DA651C4C9B5900ADA24C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E8DA661C4C9B5900ADA24C /* Build configuration list for PBXNativeTarget "ios runtime基础应用Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +560,7 @@
 				A0E8DA681C4C9B5900ADA24C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E8DA691C4C9B5900ADA24C /* Build configuration list for PBXNativeTarget "ios runtime基础应用UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +569,7 @@
 				A0E8DA6B1C4C9B5900ADA24C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
