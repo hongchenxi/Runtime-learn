@@ -17,6 +17,10 @@
 #import "HCXParents.h"
 #import "HCXMsgSend.h"
 #import "HCXProperty.h"
+#import "HCXMethod.h"
+#import "NSMutableArray+HCXSwizzling.h"
+#import "NSArray+HCXSwizzling.h"
+#import "NSObject+HCXSwizzling.h"
 @interface ViewController ()
 
 @end
@@ -78,7 +82,37 @@
 //    [HCXMsgSend test];
 
 #pragma mark - runtime属性与成员变量
-    [HCXProperty test];
+//    [HCXProperty test];
+    
+#pragma mark - runtime Method
+//    [HCXMethod test];
+    
+#pragma mark - Runtime Method Swizzling
+    
+//    NSArray *testArraty = @[@"a",@"b"];
+//    NSLog(@"%@",[testArraty lastObject]);
+    
+    NSMutableArray *array = [@[@"value", @"value1"] mutableCopy];
+    NSLog(@"lastObject:%@",[array lastObject]);
+    
+    [array removeObject:@"value"];
+    [array removeObject:nil];
+    [array addObject:@"12"];
+    [array addObject:nil];
+    [array insertObject:nil atIndex:0];
+    [array insertObject:@"sdf" atIndex:10];
+    [array objectAtIndex:100];
+    [array removeObjectAtIndex:10];
+    
+    NSMutableArray *anotherArray = [[NSMutableArray alloc] init];
+    [anotherArray objectAtIndex:0];
+    
+    NSString *nilStr = nil;
+    NSArray *array1 = @[@"ara", @"sdf", @"dsfdsf", nilStr];
+    NSLog(@"array1.count = %lu", array1.count);
+    
+    // 测试数组中有数组
+    NSArray *array2 = @[@[@"12323", @"nsdf", nilStr], @[@"sdf", @"nilsdf", nilStr, @"sdhfodf"]];
 }
 
 - (void)didReceiveMemoryWarning {

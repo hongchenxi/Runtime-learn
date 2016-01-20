@@ -13,6 +13,10 @@
 		A0A8D3911C4E26580078A2D4 /* HCXParents.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3901C4E26580078A2D4 /* HCXParents.m */; };
 		A0A8D3941C4E2EAD0078A2D4 /* HCXMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3931C4E2EAD0078A2D4 /* HCXMsgSend.m */; };
 		A0A8D3971C4E3CF80078A2D4 /* HCXProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */; };
+		A0DBA7A01C4F56AE00BDA379 /* HCXMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DBA79F1C4F56AE00BDA379 /* HCXMethod.m */; };
+		A0DBA7A61C4F680500BDA379 /* NSObject+HCXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DBA7A51C4F680500BDA379 /* NSObject+HCXSwizzling.m */; };
+		A0DBA7A91C4F698600BDA379 /* NSArray+HCXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DBA7A81C4F698600BDA379 /* NSArray+HCXSwizzling.m */; };
+		A0DBA7AC1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DBA7AB1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.m */; };
 		A0E8DA3B1C4C9B5900ADA24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3A1C4C9B5900ADA24C /* main.m */; };
 		A0E8DA3E1C4C9B5900ADA24C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA3D1C4C9B5900ADA24C /* AppDelegate.m */; };
 		A0E8DA411C4C9B5900ADA24C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DA401C4C9B5900ADA24C /* ViewController.m */; };
@@ -56,6 +60,14 @@
 		A0A8D3931C4E2EAD0078A2D4 /* HCXMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXMsgSend.m; sourceTree = "<group>"; };
 		A0A8D3951C4E3CF80078A2D4 /* HCXProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXProperty.h; sourceTree = "<group>"; };
 		A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXProperty.m; sourceTree = "<group>"; };
+		A0DBA79E1C4F56AE00BDA379 /* HCXMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXMethod.h; sourceTree = "<group>"; };
+		A0DBA79F1C4F56AE00BDA379 /* HCXMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXMethod.m; sourceTree = "<group>"; };
+		A0DBA7A41C4F680500BDA379 /* NSObject+HCXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HCXSwizzling.h"; sourceTree = "<group>"; };
+		A0DBA7A51C4F680500BDA379 /* NSObject+HCXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HCXSwizzling.m"; sourceTree = "<group>"; };
+		A0DBA7A71C4F698600BDA379 /* NSArray+HCXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HCXSwizzling.h"; sourceTree = "<group>"; };
+		A0DBA7A81C4F698600BDA379 /* NSArray+HCXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HCXSwizzling.m"; sourceTree = "<group>"; };
+		A0DBA7AA1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HCXSwizzling.h"; sourceTree = "<group>"; };
+		A0DBA7AB1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HCXSwizzling.m"; sourceTree = "<group>"; };
 		A0E8DA361C4C9B5900ADA24C /* ios runtime基础应用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios runtime基础应用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8DA3A1C4C9B5900ADA24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0E8DA3C1C4C9B5900ADA24C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +146,14 @@
 				A0E8DA401C4C9B5900ADA24C /* ViewController.m */,
 				A0E8DA6C1C4C9B9B00ADA24C /* Person.h */,
 				A0E8DA6D1C4C9B9B00ADA24C /* Person.m */,
+				A0DBA7A71C4F698600BDA379 /* NSArray+HCXSwizzling.h */,
+				A0DBA7A81C4F698600BDA379 /* NSArray+HCXSwizzling.m */,
+				A0DBA7AA1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.h */,
+				A0DBA7AB1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.m */,
+				A0DBA7A41C4F680500BDA379 /* NSObject+HCXSwizzling.h */,
+				A0DBA7A51C4F680500BDA379 /* NSObject+HCXSwizzling.m */,
+				A0DBA79E1C4F56AE00BDA379 /* HCXMethod.h */,
+				A0DBA79F1C4F56AE00BDA379 /* HCXMethod.m */,
 				A0A8D3951C4E3CF80078A2D4 /* HCXProperty.h */,
 				A0A8D3961C4E3CF80078A2D4 /* HCXProperty.m */,
 				A0A8D3921C4E2EAD0078A2D4 /* HCXMsgSend.h */,
@@ -316,12 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DBA7A01C4F56AE00BDA379 /* HCXMethod.m in Sources */,
+				A0DBA7AC1C4F6AE400BDA379 /* NSMutableArray+HCXSwizzling.m in Sources */,
 				A0A8D3971C4E3CF80078A2D4 /* HCXProperty.m in Sources */,
 				A0E8DA411C4C9B5900ADA24C /* ViewController.m in Sources */,
+				A0DBA7A91C4F698600BDA379 /* NSArray+HCXSwizzling.m in Sources */,
 				A0A8D38B1C4E20C80078A2D4 /* HCXStudent.m in Sources */,
 				A0E8DA741C4CD21000ADA24C /* HCXTestModel.m in Sources */,
 				A0E8DA3E1C4C9B5900ADA24C /* AppDelegate.m in Sources */,
 				A0E8DA711C4CC4B700ADA24C /* NSString+HCX.m in Sources */,
+				A0DBA7A61C4F680500BDA379 /* NSObject+HCXSwizzling.m in Sources */,
 				A0A8D3911C4E26580078A2D4 /* HCXParents.m in Sources */,
 				A0A8D3881C4DD4880078A2D4 /* HCXArchiveModel.m in Sources */,
 				A0A8D38E1C4E22EB0078A2D4 /* HCXTeacher.m in Sources */,
